@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网页组大作业</title>
+    <link rel="stylesheet" type="text/css" href="./igem.css">
+</head>
+<body>
+    <h1>疯狂星期四</h1>
+    <h3>亲爱的旅行者，欢迎您的到来！这里是炸鸡国，我是炸鸡国的只因国王。这里的主食只有汉堡与炸鸡，并且这里的每一天都是星期四。而您的运气决定了您是否能够度过一个愉快的夜晚。祝你好运！</h3>
+
+    <h2>请点击下方按钮，抽取你的幸运数字 ↓ </h2>
+    <h3>你的幸运数字是：</h3>
+    <button id="button" ></button>
+
+    <div id="text_1"><p id="text_1">看来你已经拥有了属于你的幸运数字！我们这里有几颗骰子🎲，不过它们有些特殊，每个骰子上的点数为0~9。接下来，请你在下方输入一个正整数n，我们的掷骰师会摇n颗骰子，并把n颗骰子的平均点数作为你的“炸鸡值”。（由于掷骰师人数有限，n不能大于20哦^_^）您的幸运数字≥炸鸡值或是＜炸鸡值决定了传送门将你送向何处。祝你好运 :
+        ）</p></div>
+    <h3>请随便输入一个正整数（n≥1）：</h3>
+    <div class="inputArea">
+        <input type="number" placeholder="Add new number" id="nnn"  >
+        <div class="inputButton">
+            <span class="btn" onclick="myFunction()">Confirm</span>
+        </div>
+    </div>
+    <h3>掷骰师的结果为：</h3>
+    <h3 id="randomNumber"></h3>
+    <h3>您的炸鸡值为：</h3>
+    <h3 id="zhajiNumber"></h3>
+    <h3>传送门在此↓</h3>
+    <a href="http://www.kfc.com.cn/" target="_top" id="Welcome_text1"></a>
+    <a href="https://www.cnhls.com/" target="_top" id="Welcome_text2"></a>
+    <br>
+    <h3>另：每时每刻都会有1-1000位旅行者在到访炸鸡国的路上，我们需要你帮助我们控制一下人流量~</h3>
+    <h3>请输入你想要的每波旅行者访问的时间间隔（单位：秒）：</h3>
+    <div class="inputArea">
+        <input type="number" placeholder="Add new number" id="hhh"  >
+        <div class="inputButton">
+            <span class="btn" onclick="myFunction2()">Confirm</span>
+        </div>
+    </div>
+    <h3>每波到访炸鸡国的旅行者人数为：</h3>
+    <h4 id="TouristNum"></h4>
+    <br>
+    <br>
+    <h6>Created by Zhu Yuantao</h6>
+    <script src="main_igem.js"></script>
+</body>
+</html>
