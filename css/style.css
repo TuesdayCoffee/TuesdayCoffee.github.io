@@ -1,0 +1,19 @@
+body::before{
+    display: block;
+    content: '';
+    height: 56px;
+}
+
+.textpadding{
+    padding: 0.5rem 2rem 0 0;
+}
+
+.arrow{
+    max-width: 5rem;
+
+}
+
+.gateway{
+    max-width: 10rem;
+
+}
